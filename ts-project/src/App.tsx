@@ -3,18 +3,26 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import FetchComponent from './components/FetchComponent'
+import ArticleDetails from './components/ArticleDetails';
 
 
 
 function App() {
   return (
+    
+    
     <div className="App">
       <header className="App-header">
-     
-       <FetchComponent/>
-    
+      
+        <FetchComponent/>
+        {/* <Route path='/ArticleDetails' element={<ArticleDetails />} /> */}
+       
+    <ArticleDetails/>
+       
+       
       </header>
     </div>
+    
   );
 }
 
