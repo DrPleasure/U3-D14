@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import FetchComponent from './components/FetchComponent'
 import ArticleDetails from './components/ArticleDetails';
+import Jumbotrono from './components/Jumbotrono';
 
 
 
@@ -12,6 +13,7 @@ function App() {
     
     
     <div className="App">
+      <Jumbotrono/>
       <header className="App-header">
       
         <FetchComponent/>
